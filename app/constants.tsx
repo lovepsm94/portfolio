@@ -13,13 +13,14 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
+export const WEBSITE_URL = "https://portfolio-puce-zeta-77.vercel.app";
+export const IMAGE_URL = `${WEBSITE_URL}/images/avatar.jpg`;
 export const IMAGE_WIDTH = "1200";
 export const IMAGE_HEIGHT = "630";
-export const PORTFOLIO_WEBSITE_NAME = "Hung Tran";
+export const PORTFOLIO_WEBSITE_NAME = "Hung Tran Portfolio";
 // export const BLOG_WEBSITE_NAME = "Alissa's Blog";
 export const TWITTER_CARD_TYPE = "summary_large_image";
 export const AUTHOR = "Hung Tran";
-export const WEBSITE_URL = "";
 export const BLOG_URL = "";
 export const TWITTER_ACC = "";
 export const TWITTER_PUBLISHER = "";
