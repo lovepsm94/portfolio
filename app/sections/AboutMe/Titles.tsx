@@ -8,14 +8,14 @@ const Titles: React.FC = ({}) => {
         <span className="blinker">[</span>
         <ul className="title-content__container__list text-center list-none">
           <li className="title-content__container__list__item m-0">
-            front end engineer
+            Front-end Engineer
           </li>
           <li className="title-content__container__list__item m-0">
             Dota2 pro player
           </li>
           <li className="title-content__container__list__item m-0">Wibu</li>
           <li className="title-content__container__list__item m-0">
-            cat dad 🐈‍⬛ 🐈
+            Cat Dad 🐈‍⬛ 🐈
           </li>
         </ul>
         <span className="blinker">]</span>
