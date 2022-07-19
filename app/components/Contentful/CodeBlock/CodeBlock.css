@@ -1,0 +1,25 @@
+.CodeBlock__LineWrapper {
+  grid-template-columns: auto 1fr;
+}
+
+.CodeBlock__FileName {
+  color: var(--base01);
+}
+.CodeBlock__FileName__Container {
+  padding: 2px 0;
+  z-index: 1000;
+  background-color: var(--base02);
+}
+
+.CodeBlock__Wrapper {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: var(--base00);
+}
+
+.CodeBlock__LineNo {
+  color: var(--base03);
+}
+

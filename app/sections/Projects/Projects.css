@@ -1,0 +1,128 @@
+/* ---------------------------PROJECTS SECTION-------------------------- */
+/* ---------------------------PROJECTS SECTION-------------------------- */
+/* ---------------------------PROJECTS SECTION-------------------------- */
+/* ---------------------------PROJECTS SECTION-------------------------- */
+/* ---------------------------PROJECTS SECTION-------------------------- */
+/* ---------------------------PROJECTS SECTION-------------------------- */
+/* ---------------------------PROJECTS SECTION-------------------------- */
+@media screen and (min-width: 520px) {
+  .main-project-small-buttons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .main-project-buttons {
+    display: none;
+  }
+}
+
+.gradient-blob {
+  z-index: -10;
+  right: -45%;
+  top: 40%;
+  animation: blob-float 6s ease-in-out 1s infinite alternate;
+}
+.FeaturedProject__Card {
+  backdrop-filter: blur(20px);
+  z-index: 1;
+}
+/* MY PROJECTS TITLE */
+.my-projects-title {
+  letter-spacing: 0.15rem;
+}
+
+.my-projects-title text {
+  fill: var(--project-text-color);
+  stroke: var(--project-text-color);
+  fill-opacity: 1;
+  stroke-width: 0;
+  stroke-dasharray: 100% 0;
+  animation: stroke-offset 3s ease-out;
+}
+
+@keyframes stroke-offset {
+  0% {
+    fill-opacity: 0;
+    stroke-width: 0;
+    stroke-dasharray: 0% 100%;
+  }
+  25% {
+    stroke-width: 3px;
+  }
+  50% {
+    fill-opacity: 0;
+  }
+  75% {
+    stroke-width: 3px;
+  }
+  100% {
+    stroke-width: 0;
+  }
+}
+
+/* OTHER PROJECTS */
+.other-projects-wrapper {
+  border-top: 1px solid var(--other-project-border);
+}
+.other-project-wrapper {
+  border-bottom: 1px solid var(--other-project-border);
+}
+
+/* RECENT PROJECTS */
+.gradient-title {
+  line-height: normal;
+  font-family: "Pacifico", cursive;
+  background-image: linear-gradient(
+    90deg,
+    rgba(94, 114, 235, 1) 0%,
+    rgba(255, 145, 144, 1) 56%,
+    rgba(254, 193, 149, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.title-animation {
+  animation: tracking-in-expand 1.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.project-slide-up {
+	animation: slide-in-bottom cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
